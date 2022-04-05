@@ -1,0 +1,163 @@
+:root {
+    --white: #ffffff;
+    --grey: #c0c0c0;
+    --blue: #167bf7;
+    --dark-blue: #085abd;
+    --background: #00030c;
+    
+    --font: 'Inter';
+}
+
+body {
+    background-color: var(--background);
+    color: var(--white);
+    font-family: var(--font);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.principal {
+    background-image: url("assets/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.containerBox {
+    margin: 0 6rem;
+}
+
+.containerDescription {
+    padding: 2rem;
+}
+
+.containerTitle {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.containerImg {
+    margin: 1rem 0 2rem 0;
+}
+
+.containerButton {
+    display: block;
+
+    background-color: var(--blue);
+    color: var(--white);
+    text-decoration: none;
+    border-radius: 5px;
+
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.containerButton:hover {
+    background-color: var(--dark-blue);
+    color: var(--background);
+}
+
+.secondaryButton {
+    background-color: transparent;
+    border: 2px solid var(--white);
+}
+
+.secondaryButton:hover {
+    border: 2px solid transparent;
+}
+
+.containerText {
+    font-size: 12px;
+    color: var(--grey)
+}
+
+.containerImgContent {
+    width: 80%;
+}
+
+.content {
+    align-items: center;
+    margin: 0 10rem;
+}
+
+.descriptionTitle {
+    font-weight: 700;
+    font-size: 48px;;
+    color: var(--white);
+    margin-bottom: 0.1rem;
+}
+
+.descriptionText {
+    color: var(--grey);
+}
+
+.secondaryButton2 {
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+.device {
+    text-align: center;
+}
+
+.deviceList {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5rem 0;
+}
+
+.deviceTitle {
+    font-size: 48px;
+    color: var(--white);
+}
+
+footer {
+    text-align: center;
+    margin: 0rem 3rem;
+}
+
+.imgLogo {
+    margin-bottom: 3rem;
+}
+
+.listItem {
+    font-size: 32px;
+    color: var(--white);
+}
+
+.footerList {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 1em;
+}
+
+.linkList a{
+    text-decoration: none;
+    color: var(--white);
+    margin-left: 1em;
+}
+
+.linkList a:hover {
+    color: var(--blue)
+}
+
+.footerText {
+    margin: 1em 0;
+    color: var(--grey);
+    font-size: 14px;
+}
+
